@@ -1,10 +1,10 @@
 {
   "name": "recommend",
   "version": "1.0.0",
-  "packageManager": "yarn@4.1.0",
+  "packageManager": "yarn@4.5.3",
   "private": true,
   "files": [
-    ".env",
+    ".env.example",
     "koishi.yml"
   ],
   "license": "AGPL-3.0",
@@ -85,6 +85,7 @@
     "koishi": "^4.18.7",
     "koishi-plugin-android": "^0.0.1",
     "koishi-plugin-assets-local": "^3.3.2",
+    "koishi-plugin-daily-animation-recommend": "^6.2.11",
     "koishi-plugin-dataview": "^2.6.1",
     "koishi-plugin-desktop": "^1.0.0",
     "koishi-plugin-puppeteer": "^3.9.0",

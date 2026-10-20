@@ -4876,6 +4876,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"koishi-plugin-daily-animation-recommend@npm:^6.2.11":
+  version: 6.2.11
+  resolution: "koishi-plugin-daily-animation-recommend@npm:6.2.11"
+  peerDependencies:
+    koishi: ^4.18.7
+  checksum: 10c0/2b11cd1d64187efa5caa98a6a1b617ef773e7e32dfc0689e9f863bbda0f7f89164c0154be391ae80f17d8812b0f0cf58e3b7a4def428bbc8df0a9cad82274cbc
+  languageName: node
+  linkType: hard
+
 "koishi-plugin-daily-animation-recommend@workspace:external/daily-animation-recommend":
   version: 0.0.0-use.local
   resolution: "koishi-plugin-daily-animation-recommend@workspace:external/daily-animation-recommend"
@@ -5916,6 +5925,7 @@ __metadata:
     koishi: "npm:^4.18.7"
     koishi-plugin-android: "npm:^0.0.1"
     koishi-plugin-assets-local: "npm:^3.3.2"
+    koishi-plugin-daily-animation-recommend: "npm:^6.2.11"
     koishi-plugin-dataview: "npm:^2.6.1"
     koishi-plugin-desktop: "npm:^1.0.0"
     koishi-plugin-puppeteer: "npm:^3.9.0"

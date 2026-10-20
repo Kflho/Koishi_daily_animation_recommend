@@ -5,7 +5,20 @@ dist
 /temp
 external
 
-.env.local
+.env
+.env.*
+!.env.example
+
+local.json
+local.*.json
+!local.example.json
+project.json
+*.pem
+*.key
+*.log
+logs/
+tmp/
+dev/
 
 .pnp.*
 .yarn/*
