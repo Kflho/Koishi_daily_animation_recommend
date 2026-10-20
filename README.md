@@ -57,6 +57,12 @@ yarn start
 2. 插件页能看到 `daily-animation-recommend` 且状态为启用；
 3. 填好适配器 token 后，机器人能在对应平台回消息。
 
+## 开发
+
+插件数据用两份本机小工具准备（Excel → JS 数组、Excel → enazo 题库）。工具不随仓库走，转换出来的数据才提交，说明见 [`docs/dev-tools.md`](docs/dev-tools.md)。
+
+仓库开发和日常使用共用这一份，开发专用文件靠 `.gitignore` 排除，不另开镜像仓库。
+
 ## 已知限制
 
 - 默认只开 SQLite；`koishi.yml` 里 Mongo / MySQL / Postgres 的配置都是禁用状态，换库要自己启；
